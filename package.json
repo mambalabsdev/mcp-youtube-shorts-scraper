@@ -1,0 +1,53 @@
+{
+  "name": "@mambalabsdev/mcp-youtube-shorts-scraper",
+  "version": "1.0.0",
+  "description": "MCP server for YouTube Shorts Scraper: Shorts from channels, searches, or links with views, likes, comments, and dates.",
+  "type": "module",
+  "bin": {
+    "mcp-youtube-shorts-scraper": "./build/index.js"
+  },
+  "files": [
+    "build",
+    "README.md",
+    "LICENSE",
+    "SECURITY.md"
+  ],
+  "scripts": {
+    "build": "tsc && chmod +x build/index.js",
+    "test": "npm run build && node --test test/*.test.js",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "youtube",
+    "youtube-shorts",
+    "shorts",
+    "video",
+    "social-media",
+    "scraper",
+    "apify",
+    "mcp",
+    "apify",
+    "clay"
+  ],
+  "author": "Mamba Labs <labs@mambamindsetgrowth.com>",
+  "license": "MIT",
+  "homepage": "https://apify.com/mambalabs/youtube-shorts-scraper",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mambalabsdev/mcp-youtube-shorts-scraper"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.2",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "^26.2.0",
+    "typescript": "5.9.3"
+  },
+  "mcpName": "com.mambabuilt/mcp-youtube-shorts-scraper"
+}
