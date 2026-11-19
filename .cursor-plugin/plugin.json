@@ -1,7 +1,7 @@
 {
   "name": "mcp-youtube-shorts-scraper",
   "displayName": "YouTube Shorts Scraper",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "MCP server for YouTube Shorts Scraper: Shorts from channels, searches, or links with views, likes, comments, and dates.",
   "author": {
     "name": "Mamba Labs",
